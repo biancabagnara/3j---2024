@@ -48,8 +48,12 @@ span{
     border-right: 2px solid var(--botao-ativo);
 }
 .botao:first-child{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
 }
 .botao:last-child{
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 20px 20px 0px;
 }
+@media screen and (min-width: 700px) {
+    .botoes{
+        display: flex;
+    }
