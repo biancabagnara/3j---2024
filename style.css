@@ -57,3 +57,7 @@ span{
     .botoes{
         display: flex;
     }
+}
+.ativo{
+    background-color: var(--botao-ativo) ;
+}
